@@ -1,0 +1,49 @@
+//module IMSiLopKit {
+//  umbrella header "IMSiLopKit-umbrella.h"
+//  export *
+//  module * { export * }
+//}
+
+//多framework 导出
+//framework module IMSiLopKit {
+// c file
+//    module CFile {
+//        header "file.h"
+//        header "filea.h"
+//        header "filebbb.h"
+//        export *
+//    }
+//
+//    umbrella "Subs"
+//    module * { export * }
+//
+//    // oc file
+//    module Test {
+//        requires objc
+//        header "Test3.h"
+//        header "Test2.h"
+//        header "Test.h"
+//        export *
+//
+//        umbrella "Subs/OCSubs"
+//        module * { export * }
+//    }
+//}
+//上面 上面的 module 使用 module * { export * } 产生了四个子 module
+//OtherFile module 编译产生:
+//
+//import OtherFile.CFile
+//import OtherFile.Sub
+//import OtherFile.SubSubs
+//import OtherFile.Test
+
+
+framework module IMSiLopKit {
+    umbrella header "IMSiLopKit-umbrella.h"
+    //http://blog.startry.com/2015/08/25/Renaming-umbrella-header-for-iOS-framework/ 可以引用别的头文件
+    export *
+    module * { export * }
+}
+
+
+

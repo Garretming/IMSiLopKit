@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4B0A4E532671BA25006C3D86 /* IMSiLopKitA */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B0A4E542671BA25006C3D86 /* Build configuration list for PBXAggregateTarget "IMSiLopKitA" */;
+			buildPhases = (
+				4B0A4E5C2671BA3B006C3D86 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = IMSiLopKitA;
+			productName = IMSiLopKitA;
+		};
+		4B0A4E5D2671BA78006C3D86 /* IMSiLopKitFrameWork copy */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B0A4E5F2671BA78006C3D86 /* Build configuration list for PBXAggregateTarget "IMSiLopKitFrameWork copy" */;
+			buildPhases = (
+				4B0A4E5E2671BA78006C3D86 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "IMSiLopKitFrameWork copy";
+			productName = IMSiLopKitFrameWork;
+		};
+		4B9239AF2670663500D4EAC8 /* IMSiLopKitFrameWork */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B9239B02670663500D4EAC8 /* Build configuration list for PBXAggregateTarget "IMSiLopKitFrameWork" */;
+			buildPhases = (
+				4B9239E92670716500D4EAC8 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = IMSiLopKitFrameWork;
+			productName = IMSiLopKitFrameWork;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4B24041D266A2DC000F080A8 /* IMSiLopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B240413266A2DC000F080A8 /* IMSiLopKit.framework */; };
+		4B240422266A2DC000F080A8 /* IMSiLopKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B240421266A2DC000F080A8 /* IMSiLopKitTests.swift */; };
+		4B240424266A2DC000F080A8 /* IMSiLopKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B240416266A2DC000F080A8 /* IMSiLopKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B24043B266A2E1100F080A8 /* IMSiLopKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B24043A266A2E1100F080A8 /* IMSiLopKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0F8BD5D699B0E6B0F30E92 /* libPods-IMSiLopKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F304FA46507E501A971DC3 /* libPods-IMSiLopKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B0A4E202671B74C006C3D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B24040A266A2DC000F080A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B0A4E152671B70E006C3D86;
+			remoteInfo = IMSiLopKitBundle;
+		};
+		4B24041E266A2DC000F080A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B24040A266A2DC000F080A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B240412266A2DC000F080A8;
+			remoteInfo = IMSiLopKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B0A4DF82671B22D006C3D86 /* ScriptFrameWork.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ScriptFrameWork.sh; sourceTree = "<group>"; };
+		4B0A4E002671B373006C3D86 /* ScriptA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ScriptA.sh; sourceTree = "<group>"; };
+		4B0A4E102671B514006C3D86 /* ScriptBundle.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ScriptBundle.sh; sourceTree = "<group>"; };
+		4B0A4E112671B5AF006C3D86 /* ScriptCocoapods.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ScriptCocoapods.sh; sourceTree = "<group>"; };
+		4B0A4E162671B70E006C3D86 /* IMSiLopKitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMSiLopKitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0A4E182671B70E006C3D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B240413266A2DC000F080A8 /* IMSiLopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMSiLopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B240416266A2DC000F080A8 /* IMSiLopKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSiLopKit.h; sourceTree = "<group>"; };
+		4B240417266A2DC000F080A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B24041C266A2DC000F080A8 /* IMSiLopKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMSiLopKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B240421266A2DC000F080A8 /* IMSiLopKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMSiLopKitTests.swift; sourceTree = "<group>"; };
+		4B240423266A2DC000F080A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B240439266A2E1100F080A8 /* IMSiLopKit.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = IMSiLopKit.modulemap; sourceTree = "<group>"; };
+		4B24043A266A2E1100F080A8 /* IMSiLopKit-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMSiLopKit-umbrella.h"; sourceTree = "<group>"; };
+		611BFE5AD103AB7D63085678 /* Pods-IMSiLopKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMSiLopKit.release.xcconfig"; path = "Target Support Files/Pods-IMSiLopKit/Pods-IMSiLopKit.release.xcconfig"; sourceTree = "<group>"; };
+		74F304FA46507E501A971DC3 /* libPods-IMSiLopKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMSiLopKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C40B4C974B9403D4803BD8F /* Pods-IMSiLopKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMSiLopKit.debug.xcconfig"; path = "Target Support Files/Pods-IMSiLopKit/Pods-IMSiLopKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B0A4E132671B70E006C3D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B240410266A2DC000F080A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0F8BD5D699B0E6B0F30E92 /* libPods-IMSiLopKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B240419266A2DC000F080A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B24041D266A2DC000F080A8 /* IMSiLopKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B0A4E172671B70E006C3D86 /* IMSiLopKitBundle */ = {
+			isa = PBXGroup;
+			children = (
+				4B0A4E182671B70E006C3D86 /* Info.plist */,
+			);
+			path = IMSiLopKitBundle;
+			sourceTree = "<group>";
+		};
+		4B240409266A2DC000F080A8 = {
+			isa = PBXGroup;
+			children = (
+				4B0A4E112671B5AF006C3D86 /* ScriptCocoapods.sh */,
+				4B0A4E102671B514006C3D86 /* ScriptBundle.sh */,
+				4B0A4DF82671B22D006C3D86 /* ScriptFrameWork.sh */,
+				4B0A4E002671B373006C3D86 /* ScriptA.sh */,
+				4B240415266A2DC000F080A8 /* IMSiLopKit */,
+				4B240420266A2DC000F080A8 /* IMSiLopKitTests */,
+				4B0A4E172671B70E006C3D86 /* IMSiLopKitBundle */,
+				4B240414266A2DC000F080A8 /* Products */,
+				C28BFD9E1715421474C144F5 /* Pods */,
+				DE35D5A1B814B56979D96BC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B240414266A2DC000F080A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B240413266A2DC000F080A8 /* IMSiLopKit.framework */,
+				4B24041C266A2DC000F080A8 /* IMSiLopKitTests.xctest */,
+				4B0A4E162671B70E006C3D86 /* IMSiLopKitBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B240415266A2DC000F080A8 /* IMSiLopKit */ = {
+			isa = PBXGroup;
+			children = (
+				4B24043A266A2E1100F080A8 /* IMSiLopKit-umbrella.h */,
+				4B240439266A2E1100F080A8 /* IMSiLopKit.modulemap */,
+				4B240416266A2DC000F080A8 /* IMSiLopKit.h */,
+				4B240417266A2DC000F080A8 /* Info.plist */,
+			);
+			path = IMSiLopKit;
+			sourceTree = "<group>";
+		};
+		4B240420266A2DC000F080A8 /* IMSiLopKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B240421266A2DC000F080A8 /* IMSiLopKitTests.swift */,
+				4B240423266A2DC000F080A8 /* Info.plist */,
+			);
+			path = IMSiLopKitTests;
+			sourceTree = "<group>";
+		};
+		C28BFD9E1715421474C144F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C40B4C974B9403D4803BD8F /* Pods-IMSiLopKit.debug.xcconfig */,
+				611BFE5AD103AB7D63085678 /* Pods-IMSiLopKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE35D5A1B814B56979D96BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F304FA46507E501A971DC3 /* libPods-IMSiLopKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B24040E266A2DC000F080A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B24043B266A2E1100F080A8 /* IMSiLopKit-umbrella.h in Headers */,
+				4B240424266A2DC000F080A8 /* IMSiLopKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B0A4E152671B70E006C3D86 /* IMSiLopKitBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0A4E192671B70E006C3D86 /* Build configuration list for PBXNativeTarget "IMSiLopKitBundle" */;
+			buildPhases = (
+				4B0A4E122671B70E006C3D86 /* Sources */,
+				4B0A4E132671B70E006C3D86 /* Frameworks */,
+				4B0A4E142671B70E006C3D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMSiLopKitBundle;
+			productName = IMSiLopKitBundle;
+			productReference = 4B0A4E162671B70E006C3D86 /* IMSiLopKitBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4B240412266A2DC000F080A8 /* IMSiLopKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B240427266A2DC000F080A8 /* Build configuration list for PBXNativeTarget "IMSiLopKit" */;
+			buildPhases = (
+				4B0A4F432671F462006C3D86 /* LicensePlist */,
+				B4CF36CD21B66F8E20FB742E /* [CP] Check Pods Manifest.lock */,
+				4B24040E266A2DC000F080A8 /* Headers */,
+				4B24040F266A2DC000F080A8 /* Sources */,
+				4B240410266A2DC000F080A8 /* Frameworks */,
+				4B240411266A2DC000F080A8 /* Resources */,
+				FD4FD347764D8FDF07B41593 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B0A4E212671B74C006C3D86 /* PBXTargetDependency */,
+			);
+			name = IMSiLopKit;
+			productName = IMSiLopKit;
+			productReference = 4B240413266A2DC000F080A8 /* IMSiLopKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B24041B266A2DC000F080A8 /* IMSiLopKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B24042A266A2DC000F080A8 /* Build configuration list for PBXNativeTarget "IMSiLopKitTests" */;
+			buildPhases = (
+				4B240418266A2DC000F080A8 /* Sources */,
+				4B240419266A2DC000F080A8 /* Frameworks */,
+				4B24041A266A2DC000F080A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B24041F266A2DC000F080A8 /* PBXTargetDependency */,
+			);
+			name = IMSiLopKitTests;
+			productName = IMSiLopKitTests;
+			productReference = 4B24041C266A2DC000F080A8 /* IMSiLopKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B24040A266A2DC000F080A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4B0A4E152671B70E006C3D86 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4B0A4E532671BA25006C3D86 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4B240412266A2DC000F080A8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4B24041B266A2DC000F080A8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4B9239AF2670663500D4EAC8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4B24040D266A2DC000F080A8 /* Build configuration list for PBXProject "IMSiLopKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B240409266A2DC000F080A8;
+			productRefGroup = 4B240414266A2DC000F080A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B240412266A2DC000F080A8 /* IMSiLopKit */,
+				4B24041B266A2DC000F080A8 /* IMSiLopKitTests */,
+				4B9239AF2670663500D4EAC8 /* IMSiLopKitFrameWork */,
+				4B0A4E5D2671BA78006C3D86 /* IMSiLopKitFrameWork copy */,
+				4B0A4E152671B70E006C3D86 /* IMSiLopKitBundle */,
+				4B0A4E532671BA25006C3D86 /* IMSiLopKitA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B0A4E142671B70E006C3D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B240411266A2DC000F080A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B24041A266A2DC000F080A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B0A4E5C2671BA3B006C3D86 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME=\"MyFramework\"\n#FMK_NAME=\"IDMPCMCC\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\n# 获取当前时间\nDATE=$(date +%Y%m%d-%H:%M:%S)\n# 定义IDMPCMCC+当前时间 命名的文件夹名字\nINSTALL_DIR=${HOME}/Desktop/IDMPCMCC${DATE}\n# 支持真机静态库所在的路径\nDEVICE_DIR=${BUILD_DIR}/Release-iphoneos/\n# 支持模拟器静态库所在的路径\nSIMULATOR_DIR=${BUILD_DIR}/Release-iphonesimulator/\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\n# 配置生成静态库一些参数\nxcodebuild build BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\nxcodebuild build BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\"  -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n# 合并真机和模拟器架构静态库\nlipo -create \"${DEVICE_DIR}/lib${FMK_NAME}.a\" \"${SIMULATOR_DIR}/lib${FMK_NAME}.a\" -output \"${INSTALL_DIR}/lib${FMK_NAME}.a\"\n\nopen \"${INSTALL_DIR}\"\n\n";
+		};
+		4B0A4E5E2671BA78006C3D86 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# If target name is not equal to project name, you should manually set FMKNAME.\n#定义库的名字   只用于不包含第三方库的framework，但是内容为空，原因未知\nFMK_NAME=${PROJECT_NAME}\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\n# 目标文件\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\n#定义编译目录  当前工程的目录下\nWRK_DIR=build\n\n\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -project \"${PROJECT_NAME}.xcodeproj\" -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos -arch armv7 -arch armv7s -arch arm64 build\nxcodebuild -project \"${PROJECT_NAME}.xcodeproj\" -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator -arch i386 -arch x86_64 build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n\nopen \"${SRCROOT}/Products/\"\n";
+		};
+		4B0A4F432671F462006C3D86 /* LicensePlist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = LicensePlist;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ $CONFIGURATION = \"Debug\" ]; then\n${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle --github-token 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\n#/usr/local/bin/license-plist --output-path $PRODUCT_NAME/Settings.bundle --github-token YOUR_GITHUB_TOKEN\nfi\n";
+		};
+		4B9239E92670716500D4EAC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# 用于包含第三方库的framework, 但是build失败原因未知\n#!/bin/sh\nUNIVERSAL_OUTPUTFOLDER=${PROJECT_DIR}/${CONFIGURATION}-universal\nWORKSPACE_NAME=${PROJECT_NAME}.xcworkspace\n# make sure the output directory exists \nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# Step 1. Build Device and Simulator versions\nxcodebuild -workspace \"${WORKSPACE_NAME}\" -scheme \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphoneos ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean\n\nxcodebuild -workspace \"${WORKSPACE_NAME}\" -scheme \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean\n\n\nxcodebuild -workspace \"${WORKSPACE_NAME}\" -scheme \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphoneos ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\n\nxcodebuild -workspace \"${WORKSPACE_NAME}\" -scheme \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n";
+		};
+		B4CF36CD21B66F8E20FB742E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMSiLopKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4FD347764D8FDF07B41593 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMSiLopKit/Pods-IMSiLopKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMSiLopKit/Pods-IMSiLopKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMSiLopKit/Pods-IMSiLopKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B0A4E122671B70E006C3D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B24040F266A2DC000F080A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B240418266A2DC000F080A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B240422266A2DC000F080A8 /* IMSiLopKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B0A4E212671B74C006C3D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B0A4E152671B70E006C3D86 /* IMSiLopKitBundle */;
+			targetProxy = 4B0A4E202671B74C006C3D86 /* PBXContainerItemProxy */;
+		};
+		4B24041F266A2DC000F080A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B240412266A2DC000F080A8 /* IMSiLopKit */;
+			targetProxy = 4B24041E266A2DC000F080A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B0A4E1A2671B70E006C3D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = IMSiLopKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neabot.IMSiLopKitBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4B0A4E1B2671B70E006C3D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = IMSiLopKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neabot.IMSiLopKitBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4B0A4E552671BA25006C3D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B0A4E562671BA25006C3D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B0A4E602671BA78006C3D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B0A4E612671BA78006C3D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B240425266A2DC000F080A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B240426266A2DC000F080A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B240428266A2DC000F080A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C40B4C974B9403D4803BD8F /* Pods-IMSiLopKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/**",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSLog/IMSLog",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSIotSmart/IMSIotSmart",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudALBBOpenAccount/openaccount",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSAccount/IMSAccount",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSPCloudNetwork/IMSPCloudNetwork",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneKit/IMSBoneKit",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudSGSecurityBody/SGSecurityBody",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSAuthentication/IMSAuthentication",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudPushIoT/emas-push-iot",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AKTBJSONModel/iot-sdk-jsonmodel",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSOpsTools/IMSOpsTools",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMLCoapBase/IMLCoapBase",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSPCloudPush/IMSPCloudPush",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneLogUtil/IMSBoneLogUtil",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneServiceCore/IMSBoneServiceCore",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudSGMain/SGMain",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBonePluginKit/IMSBonePluginKit",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSDeviceGateway/IMSDeviceGateway",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudSecurityGuardSDK/SecurityGuardSDK",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneUserTrack/IMSBoneUserTrack",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSRouter/IMSRouter",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSThingCapability/IMSThingCapability",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneServicePluginKit/IMSBoneServicePluginKit",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudUtils/utils",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSMobileChannel/IMSMobileChannel",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudUTDID/utdid",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSApiClient/IMSApiClient",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSReactNativeExtension/IMSReactNativeExtension",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/LinkNetworkSDK/LinkNetworkSDK",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSOtaBusinessSdk/IMSOtaBusinessSdk",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AKReactNative/AKReactNative",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSDeviceCenter/IMSDeviceCenter",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBreezeSDK/IMSBreezeSDK",
+				);
+				INFOPLIST_FILE = IMSiLopKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/thirdlibs",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AKReactNative/AKReactNative",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neabot.IMSiLopKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B240429266A2DC000F080A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611BFE5AD103AB7D63085678 /* Pods-IMSiLopKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/**",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSLog/IMSLog",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSIotSmart/IMSIotSmart",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudALBBOpenAccount/openaccount",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSAccount/IMSAccount",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSPCloudNetwork/IMSPCloudNetwork",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneKit/IMSBoneKit",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudSGSecurityBody/SGSecurityBody",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSAuthentication/IMSAuthentication",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudPushIoT/emas-push-iot",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AKTBJSONModel/iot-sdk-jsonmodel",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSOpsTools/IMSOpsTools",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMLCoapBase/IMLCoapBase",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSPCloudPush/IMSPCloudPush",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneLogUtil/IMSBoneLogUtil",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneServiceCore/IMSBoneServiceCore",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudSGMain/SGMain",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBonePluginKit/IMSBonePluginKit",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSDeviceGateway/IMSDeviceGateway",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudSecurityGuardSDK/SecurityGuardSDK",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneUserTrack/IMSBoneUserTrack",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSRouter/IMSRouter",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSThingCapability/IMSThingCapability",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBoneServicePluginKit/IMSBoneServicePluginKit",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudUtils/utils",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSMobileChannel/IMSMobileChannel",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AlicloudUTDID/utdid",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSApiClient/IMSApiClient",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSReactNativeExtension/IMSReactNativeExtension",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/LinkNetworkSDK/LinkNetworkSDK",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSOtaBusinessSdk/IMSOtaBusinessSdk",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AKReactNative/AKReactNative",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSDeviceCenter/IMSDeviceCenter",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/IMSBreezeSDK/IMSBreezeSDK",
+				);
+				INFOPLIST_FILE = IMSiLopKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/thirdlibs",
+					"$(PROJECT_DIR)/IMSiLopKit/libAL/frameworks/AKReactNative/AKReactNative",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neabot.IMSiLopKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B24042B266A2DC000F080A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				INFOPLIST_FILE = IMSiLopKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neabot.IMSiLopKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B24042C266A2DC000F080A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				INFOPLIST_FILE = IMSiLopKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neabot.IMSiLopKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B9239B12670663500D4EAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B9239B22670663500D4EAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KDZKBA7LJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0A4E192671B70E006C3D86 /* Build configuration list for PBXNativeTarget "IMSiLopKitBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0A4E1A2671B70E006C3D86 /* Debug */,
+				4B0A4E1B2671B70E006C3D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0A4E542671BA25006C3D86 /* Build configuration list for PBXAggregateTarget "IMSiLopKitA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0A4E552671BA25006C3D86 /* Debug */,
+				4B0A4E562671BA25006C3D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0A4E5F2671BA78006C3D86 /* Build configuration list for PBXAggregateTarget "IMSiLopKitFrameWork copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0A4E602671BA78006C3D86 /* Debug */,
+				4B0A4E612671BA78006C3D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B24040D266A2DC000F080A8 /* Build configuration list for PBXProject "IMSiLopKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B240425266A2DC000F080A8 /* Debug */,
+				4B240426266A2DC000F080A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B240427266A2DC000F080A8 /* Build configuration list for PBXNativeTarget "IMSiLopKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B240428266A2DC000F080A8 /* Debug */,
+				4B240429266A2DC000F080A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B24042A266A2DC000F080A8 /* Build configuration list for PBXNativeTarget "IMSiLopKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B24042B266A2DC000F080A8 /* Debug */,
+				4B24042C266A2DC000F080A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9239B02670663500D4EAC8 /* Build configuration list for PBXAggregateTarget "IMSiLopKitFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9239B12670663500D4EAC8 /* Debug */,
+				4B9239B22670663500D4EAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B24040A266A2DC000F080A8 /* Project object */;
+}
