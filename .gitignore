@@ -56,10 +56,13 @@ buck-out/
 *.jsbundle
 
 # CocoaPods
-*/Pods/
-*/Pods--/
-bundles.zip
 
+IMSiLopKit.framework
+Podfile.lock
+bundles.zip
+Pods--/
+Pods/
 Build/
 Carthage/
+Products/
 Debug-universal/
