@@ -122,14 +122,14 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 #源代码文件，多个值之间使用,分割
-  # s.source_files  = "IMSiLopKit", "IMSiLopKit/**/*.{h,m}"
+spec.source_files  = "IMSiLopKit", "IMSiLopKit/**/*.{h,m}"
   #//路径 前面的表示私有库名，后面表示私有库中的内容
   
-  # s.exclude_files = "Classes/Exclude"
+  # spec.exclude_files = "Classes/Exclude"
   
   #有添加framework，才需要设置s.public_header_files，否则不要设置s.public_header_files
   # 如果单纯framework做pod，首先public_header_files要指定xxx.framework/Headers/{.h}不然你头文件找不到，其次source_files里看具体编译情况决定加不加xxx.framework/Headers/{.h}，然后就是比较普通的地方vendored_frameworks指定好完事大吉！source_files这个加了的时候还有一个前提就是Framework内引用全是""不能<>，所以大部分情况source_files不加
-  # s.public_header_files = "IMSiLopKit/IMSiLopKit.h", "IMSiLopKit/**/*.h" #如果是创建framework，才需要设置s.public_header_files，否则不要设置s.public_header_files。 因为设置了s.public_header_files会自动编译成framework,在pod trunk push时会报找不到"xxxxx.h"的错误。
+  # spec.public_header_files = "IMSiLopKit/IMSiLopKit.h", "IMSiLopKit/**/*.h" #如果是创建framework，才需要设置s.public_header_files，否则不要设置s.public_header_files。 因为设置了s.public_header_files会自动编译成framework,在pod trunk push时会报找不到"xxxxx.h"的错误。
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
