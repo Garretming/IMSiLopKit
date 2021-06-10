@@ -7,9 +7,10 @@ import fileinput
 sources = [
           #'https://github.com/YinTokey/Egen.git',
           ]
-
-project_name = 'UserModule-master'
-podspec_file_name = 'UserModule.podspec'
+project_name = 'IMSiLopKit'
+podspec_file_name = 'IMSiLopKit.podspec'
+# project_name = 'UserModule-master'
+# podspec_file_name = 'UserModule.podspec'
 
 
 # ==================================================================
